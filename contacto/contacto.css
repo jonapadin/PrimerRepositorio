@@ -1,0 +1,154 @@
+/* Establece el color de fondo de la página a un gris claro */
+body {
+  background-color: rgb(190, 194, 194);
+}
+
+/* Define el estilo para los elementos con la clase .titulo */
+.titulo {
+  font-size: 90px; /* Tamaño de fuente de 90px */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: Comic Sans MS; /* Usa la fuente Comic Sans MS */
+  font-weight: bold; /* Aplica negrita al texto */
+  color: #ebd758; /* Color del texto amarillo */
+  text-shadow: /* Aplica múltiples sombras al texto para un efecto 3D */
+    -1px 0 #414d68, 0 1px #414d68, 1px 0 #414d68, 0 -1px #414d68,
+    -2px 2px 0 #414d68, 2px 2px 0 #414d68, 1px 1px #414d68, 2px 2px #414d68,
+    3px 3px #414d68, 4px 4px #414d68, 5px 5px #414d68, 6px 6px #414d68,
+    7px 7px #414d68, 8px 8px #414d68, 9px 9px #414d68;
+}
+
+/* Define el estilo para los elementos span dentro de un div */
+div span {
+  font-size: 50px; /* Tamaño de fuente de 50px */
+  color: silver; /* Color del texto plateado */
+}
+
+/* Define el estilo para los elementos con la clase .header */
+.header {
+  color: white; /* Color del texto blanco */
+  background-color: rgb(121, 118, 118); /* Fondo gris oscuro */
+  font-size: 35px; /* Tamaño de fuente de 35px */
+  display: flex; /* Usa Flexbox para el diseño */
+  flex-direction: row; /* Distribuye los elementos en fila */
+  text-align: center; /* Centra el texto horizontalmente */
+  justify-content: space-evenly; /* Distribuye los elementos uniformemente */
+  align-items: center; /* Centra los elementos verticalmente */
+  height: 60px; /* Altura de 60px */
+  width: 100%; /* Ancho al 100% del contenedor */
+}
+
+/* Define el estilo para los elementos con la clase .footer */
+.footer {
+  color: white; /* Color del texto blanco */
+  background-color: rgb(121, 118, 118); /* Fondo gris oscuro */
+  font-size: 20px; /* Tamaño de fuente de 20px */
+  padding: 10px 0; /* Padding vertical de 10px */
+  display: flex; /* Usa Flexbox para el diseño */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+}
+
+/* Define el estilo para los elementos span dentro de un address en un footer */
+footer address span {
+  margin-left: 20px; /* Añade un margen izquierdo de 20px */
+}
+
+/* Define el estilo para los elementos h2 */
+h2 {
+  font-size: 35px; /* Tamaño de fuente de 35px */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Define el estilo para los enlaces no visitados */
+a:link {
+  text-decoration: none; /* Sin decoración de texto (sin subrayado) */
+}
+
+/* Define el estilo para los enlaces visitados */
+a:visited {
+  color: white; /* Color del texto blanco */
+  font-family: arial; /* Usa la fuente Arial */
+  text-decoration: none; /* Sin decoración de texto (sin subrayado) */
+}
+
+/* Define el estilo para los enlaces cuando el ratón está sobre ellos */
+a:hover {
+  color: black; /* Color del texto negro */
+  font-family: arial; /* Usa la fuente Arial */
+  text-decoration: none; /* Sin decoración de texto (sin subrayado) */
+}
+
+/* Define el estilo para los elementos con la clase .cuerpo */
+.cuerpo {
+  width: 800px; /* Ancho de 800px */
+  margin: 50px auto; /* Márgenes superior e inferior de 50px, y centrado horizontalmente */
+  padding: 20px; /* Padding interno de 20px */
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 8px; /* Bordes redondeados con radio de 8px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra difusa de 10px con color negro translúcido */
+}
+
+/* Define el estilo para los elementos con la clase .formulario */
+.formulario {
+  margin: 10px 0; /* Márgenes superior e inferior de 10px */
+  padding: 10px; /* Padding interno de 10px */
+  background-color: #f9f9f9; /* Fondo gris claro */
+  border: 1px solid #ddd; /* Borde sólido de 1px en color gris claro */
+  border-radius: 4px; /* Bordes redondeados con radio de 4px */
+  display: flex; /* Usa Flexbox para el diseño */
+  align-items: center; /* Centra los elementos verticalmente */
+  flex-direction: column; /* Distribuye los elementos en columna */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+/* Define el estilo para los elementos con la clase .formularioTexto */
+.formularioTexto {
+  font-size: 30px; /* Tamaño de fuente de 30px */
+  margin: 10px; /* Márgenes de 10px */
+}
+
+/* Define el estilo para los elementos con la clase .formularioBox */
+.formularioBox {
+  font-size: 25px; /* Tamaño de fuente de 25px */
+  width: 80%; /* Ancho del 80% del contenedor */
+  height: 40px; /* Altura de 40px */
+  border-radius: 4px; /* Bordes redondeados con radio de 4px */
+}
+
+/* Define el estilo para los elementos textarea */
+textarea {
+  height: 200px; /* Altura de 200px */
+  width: 80%; /* Ancho del 80% del contenedor */
+  border-radius: 4px; /* Bordes redondeados con radio de 4px */
+}
+
+/* Define el estilo para los elementos button */
+button {
+  background-color: #28a745; /* Fondo verde */
+  color: #fff; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados con radio de 4px */
+  padding: 10px 20px; /* Padding interno de 10px vertical y 20px horizontal */
+  font-size: 20px; /* Tamaño de fuente de 20px */
+  cursor: pointer; /* Cursor tipo puntero para indicar que es clickeable */
+  margin: 10px; /* Márgenes de 10px */
+}
+
+/* Define el estilo para el botón cuando el ratón está sobre él */
+button:hover {
+  background-color: #218838; /* Cambia el color de fondo a verde más oscuro */
+}
+
+/* Define el estilo para el botón cuando se está presionando */
+button:active {
+  background-color: #1e7e34; /* Cambia el color de fondo a un verde aún más oscuro */
+}
+
+/* Define el estilo para los elementos con la clase .confirma */
+.confirma {
+  color: green; /* Color del texto verde */
+  font-size: 30px; /* Tamaño de fuente de 30px */
+  display: flex; /* Usa Flexbox para el diseño */
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}

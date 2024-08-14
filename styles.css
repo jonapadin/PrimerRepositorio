@@ -1,0 +1,177 @@
+/* Establece el color de fondo para todo el cuerpo de la página */
+body {
+    background-color: rgb(190, 194, 194);
+}
+
+/* Estilo para el título principal de la página */
+.titulo {
+    font-size: 90px; /* Tamaño de fuente grande para el título */
+    text-align: center; /* Centra el texto */
+    font-family: Comic Sans MS; /* Familia de fuente Comic Sans MS */
+    font-weight: bold; /* Negrita */
+    color: #EBD758; /* Color del texto */
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, 
+                 -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 
+                 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 
+                 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68; /* Sombra de texto compleja para dar un efecto 3D */
+}
+
+/* Estilo para el texto dentro de elementos <span> dentro de <div> */
+div span {
+    font-size: 50px; /* Tamaño de fuente grande */
+    color: rgb(143, 134, 134); /* Color del texto */
+}
+
+/* Estilo para el encabezado de la página */
+.header {
+    color: white; /* Color del texto */
+    background-color: rgb(121, 118, 118); /* Color de fondo */
+    font-size: 35px; /* Tamaño de fuente */
+    display: flex; /* Usa flexbox para el diseño */
+    flex-direction: row; /* Dirección de los elementos en fila */
+    text-align: center; /* Centra el texto */
+    justify-content: space-evenly; /* Espacio uniforme entre los elementos */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    height: 60px; /* Altura del encabezado */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilo para el contenido principal */
+.cuerpo {
+    flex: 1; /* Ocupa el espacio restante del contenedor flex */
+}
+
+/* Estilo para el pie de página */
+.footer {
+    color: white; /* Color del texto */
+    background-color: rgb(121, 118, 118); /* Color de fondo */
+    font-size: 25px; /* Tamaño de fuente */
+    text-align: center; /* Centra el texto */
+    padding: 10px 0; /* Espaciado vertical */
+}
+
+/* Estilo para los elementos <span> dentro de <footer> y <address> */
+footer address span {
+    margin-left: 20px; /* Margen a la izquierda */
+}
+
+/* Estilo para el contenedor superior, usa flexbox sin ajuste de línea */
+.superior {
+    display: flex; /* Usa flexbox para el diseño */
+    flex-wrap: nowrap; /* No permite el ajuste de línea */
+}
+
+/* Estilo para el contenedor inferior, usa flexbox con ajuste de línea en dirección inversa */
+.inferior {
+    display: flex; /* Usa flexbox para el diseño */
+    flex-wrap: nowrap; /* No permite el ajuste de línea */
+    flex-direction: row-reverse; /* Dirección de los elementos en fila inversa */
+}
+
+/* Estilo para las imágenes de carrito */
+.carrito {
+    width: 450px; /* Ancho de la imagen */
+    height: 350px; /* Altura de la imagen */
+    margin-right: 100px; /* Margen a la derecha */
+    margin-left: 100px; /* Margen a la izquierda */
+    margin-bottom: 150px; /* Margen en la parte inferior */
+}
+
+/* Estilo para el texto del cuerpo principal */
+.textoCuerpo {
+    font-size: 30px; /* Tamaño de fuente */
+    font-family: Arial, Helvetica, sans-serif; /* Familia de fuentes */
+    margin-left: 100px; /* Margen a la izquierda */
+    margin-right: 100px; /* Margen a la derecha */
+}
+
+/* Estilo para el título h1 */
+h1 {
+    font-size: 45px; /* Tamaño de fuente */
+    margin-left: 100px; /* Margen a la izquierda */
+}
+
+/* Estilo para el título h2 */
+h2 {
+    font-size: 45px; /* Tamaño de fuente */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo para enlaces no visitados */
+a:link {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilo para enlaces visitados */
+a:visited {
+    color: white; /* Color del texto */
+    font-family: arial; /* Familia de fuente */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilo para enlaces al pasar el cursor sobre ellos */
+a:hover {
+    color: black; /* Color del texto */
+    font-family: arial; /* Familia de fuente */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    background-color: rgb(121, 118, 118); /* Color de fondo al pasar el cursor */
+}
+
+/* Estilo para el contenedor de ofertas */
+.ofertas {
+    display: flex; /* Usa flexbox para el diseño */
+    flex-wrap: nowrap; /* No permite el ajuste de línea */
+    background-color: rgb(223, 218, 218); /* Color de fondo */
+    justify-content: space-around; /* Espacio uniforme alrededor de los elementos */
+}
+
+/* Estilo para las imágenes de oferta de productos */
+.productosOferta {
+    width: 300px; /* Ancho de la imagen */
+    height: 450px; /* Altura de la imagen */
+    transition: box-shadow 0.5s ease; /* Transición suave para la sombra */
+    display: inline-block; /* Muestra como un bloque en línea */
+    border-color: white; /* Color del borde */
+    border-style: solid; /* Estilo del borde */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionar */
+}
+
+/* Estilo para el texto dentro de las ofertas */
+.textoOfertas {
+    text-align: center; /* Centra el texto */
+    font-family: Arial; /* Familia de fuente */
+    font-size: 40px; /* Tamaño de fuente */
+    color: #db1111; /* Color del texto */
+    text-shadow: 0px 0px 9px #c56868; /* Sombra del texto */
+    top: 15px; /* Posición superior */
+}
+
+/* Estilo para el contenedor de las fotos de ofertas */
+.fotoOfertas {
+    position: relative; /* Posición relativa para posicionar elementos hijos */
+    display: inline-block; /* Muestra como un bloque en línea */
+    margin-top: 30px; /* Margen en la parte superior */
+}
+
+/* Estilo para el porcentaje de descuento en las ofertas */
+.porcentaje {
+    position: absolute; /* Posición absoluta respecto al contenedor padre */
+    font-size: 20px; /* Tamaño de fuente */
+    top: 10px; /* Posición superior */
+    right: 10px; /* Posición a la derecha */
+    background: white; /* Fondo blanco */
+    color: rgb(233, 7, 7); /* Color del texto */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo para las imágenes de oferta al pasar el cursor sobre ellas */
+.productosOferta:hover {
+    box-shadow: 15px 30px 50px rgba(0, 0, 0, 0.5); /* Sombra de caja para efecto de resaltado */
+}
+
+/* Estilo para el contenedor de tarjetas */
+.tarjetas {
+    justify-content: center; /* Centra los elementos dentro del contenedor */
+}
